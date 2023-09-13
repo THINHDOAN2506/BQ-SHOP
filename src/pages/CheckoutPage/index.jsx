@@ -306,12 +306,12 @@ const CheckOutPage = () => {
                                 </h5>
                               </i>
                             ) : (
-                              <h5 className="text-center text-danger">
+                              <h6 className="text-center text-danger mb-3 small">
                                 <i>
                                   Quý Khách Vui Lòng Kiểm Tra Lại Thông Tin Giao
                                   Hàng Cho Chính Xác!
                                 </i>
-                              </h5>
+                              </h6>
                             )}
                           </div>
                           <form onSubmit={handleSubmit(onValid)}>
