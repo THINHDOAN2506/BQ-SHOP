@@ -1,0 +1,28 @@
+.icon-hover:hover {
+    border-color: #3b71ca !important;
+    background-color: white !important;
+    color: #3b71ca !important;
+}
+
+.icon-hover:hover i {
+    color: #3b71ca !important;
+}
+
+.icon-hoverbtn:hover,.icon-hoverbtn:focus, .icon-hoverbtn:active {
+    border-color: yellow !important;
+    background-color: yellow !important;
+    color: #1761d8 !important;
+    width: 90%
+}
+
+.hidden-p{
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 1;
+    -webkit-box-orient: vertical;
+}
+.margin-top {
+    margin-top: 80px;
+}
+

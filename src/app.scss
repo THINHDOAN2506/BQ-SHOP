@@ -1,0 +1,23 @@
+.row {
+    --bs-gutter-x: 0.5rem !important;
+    margin-left: 0!important;
+}
+.h5 {
+    font-size: 1rem!important;
+
+}
+.card-body {
+    padding: 5px !important;
+}
+
+.link-decor {
+    text-decoration: none !important;
+    color: black;
+}
+
+html,
+body {
+  width: 100%;
+  height: calc(100vh - 72px) !important;
+  color: rgba(120, 245, 158, 0.785);
+}
