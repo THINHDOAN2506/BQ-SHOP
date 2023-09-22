@@ -162,7 +162,6 @@ const CheckOutPage = () => {
     } else {
       items = 0;
       setDiscount("");
-
       toast(
         <div className="text-center fw-bold text-danger">
           <div> MÃ GIẢM GIÁ không hợp lệ</div>
