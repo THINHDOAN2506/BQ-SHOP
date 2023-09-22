@@ -162,6 +162,7 @@ const CheckOutPage = () => {
     } else {
       items = 0;
       setDiscount("");
+
       toast(
         <div className="text-center fw-bold text-danger">
           <div> MÃ GIẢM GIÁ không hợp lệ</div>
@@ -305,12 +306,12 @@ const CheckOutPage = () => {
                                 </h5>
                               </i>
                             ) : (
-                              <h6 className="text-center text-danger mb-3 small">
+                              <h5 className="text-center text-danger">
                                 <i>
                                   Quý Khách Vui Lòng Kiểm Tra Lại Thông Tin Giao
                                   Hàng Cho Chính Xác!
                                 </i>
-                              </h6>
+                              </h5>
                             )}
                           </div>
                           <form onSubmit={handleSubmit(onValid)}>
